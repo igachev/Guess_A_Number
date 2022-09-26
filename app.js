@@ -8,6 +8,12 @@ let askForNumber = function() {
 })
 }
 
+let askForRestart = function() {
+rl.question('Do you want to continue playing? y/n: ',function(yesOrNo) {
+ checkForRestart(yesOrNo)
+})
+}
+
 askForNumber()
 
 function checkAnswer(answer) {
@@ -15,7 +21,8 @@ function checkAnswer(answer) {
     if(answer >= 0 && answer <= 100) {
         if(answer == randomNumber) {
             console.log('You guess it!');
-            return rl.close()
+            //return rl.close()
+        askForRestart()
         }
         else if(answer < randomNumber) {
             console.log('Too Low!');
@@ -36,4 +43,22 @@ function checkAnswer(answer) {
 function generateRandomNumber() {
     let randomNumber = Math.floor(Math.random() * 100)
     return randomNumber
+}
+
+function checkForRestart(yesOrNo) {
+   if(yesOrNo == 'y' || yesOrNo == 'n') {
+    if(yesOrNo == 'y') {
+        askForNumber()
+        randomNumber = generateRandomNumber();
+    }
+    else if(yesOrNo == 'n') {
+        console.log('Game ended');
+        return rl.close()
+    }
+   }
+
+   else {
+    console.log('Invalid command! Choose y or n');
+    askForRestart()
+   }
 }
