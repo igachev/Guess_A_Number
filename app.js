@@ -21,6 +21,7 @@ function checkAnswer(answer) {
     
     if(answer >= 0 && answer <= 100) {
         if(answer == randomNumber) {
+            countAttempts++;
             console.log("\x1b[32m",'You guess it!',"\x1b[37m");
         console.log(`Number of attempts until succeed: ${countAttempts}`);
             countAttempts = 0;
