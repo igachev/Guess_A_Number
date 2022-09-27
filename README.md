@@ -1,6 +1,9 @@
 # Guess_A_Number
 
 
+<img alt="Image" width="400" src="https://thumbs.gfycat.com/BadIllegalGermanwirehairedpointer-size_restricted.gif">
+
+
 simple console game called "Guess A Number"
 
 
