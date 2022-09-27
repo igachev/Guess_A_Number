@@ -1,8 +1,7 @@
 # Guess_A_Number
+
+
 simple console game called "Guess A Number"
-
-
-<img alt="image" width="200px" src="https://i.gifer.com/Hyik.gif"/>
 
 
 ### Short Description:
