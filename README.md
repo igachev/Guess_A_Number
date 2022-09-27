@@ -1,6 +1,10 @@
 # Guess_A_Number
 simple console game called "Guess A Number"
 
+
+<img alt="image" width="200px" src="https://i.gifer.com/Hyik.gif"/>
+
+
 ### Short Description:
 The computer generate a random number between 0-100.In the console the user
 should type his guess.Then message will appear if the user's  guess is correct or close to that number.The user has 10 attempts to guess the number  or the game is over.
