@@ -60,6 +60,5 @@ The user has 10 attempts to guess the number or the game is over.Then user will 
 - JavaScript
 
 ## Live Demo:
-https://replit.com/@igachev/GuessANumber#guessNumber.js
 
-To start game in replit in Shell type: node guessNumber
+https://replit.com/@igachev/GuessANumber#index.js
